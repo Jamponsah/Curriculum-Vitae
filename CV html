@@ -1,0 +1,172 @@
+html
+  head
+  body.A4
+    .sheet
+      button.btn.btn-print.btn-sm.btn-light(onClick='handlePrint()')
+        | <i class="fa fa-print"></i>
+        | Print
+      .two-column.resume
+        section.resume__section.resume__header
+          .resume__content
+            h1 Amponsah John
+            .info-item
+              span.info-label
+                i.fa.fa-location-arrow
+              span.info-text
+                | Post Office Box 36 Nsawam,Eastern Ghana,
+                | Zip: 00233
+            .info-item
+              span.info-label
+                i.fa.fa-envelope
+              span.info-text john.amponsah@azubiafrica.org
+            .info-item
+              span.info-label
+                i.fa.fa-phone
+              span.info-text +233 504 300 049, +233 545 129 635
+
+        .resume__columns
+          .resume__main
+            section.resume__section.resume__summary
+              .resume__content
+                .resume__section-title
+                  i.fa.fa-pencil-square-o
+                  h2 Professional Summary
+                .other
+                  .other-info
+                    p
+                      | I am a dedicated and skilled computer networking professional with a robust
+                      | background in server administration and network management. I am enthusiastic
+                      | about contributing my expertise and technical acumen to a dynamic team within
+                      | the computer server networking field.My proven ability lies in designing, 
+                      | implementing, and maintainin efficient and secure server infrastructures,
+                      | underscored by my unwavering commitment to optimizing performance and 
+                      | ensuring reliability.
+
+                    p
+                      |  Network Server operation and deploymentLAN &WAN,IP PBX Configuration & Office phone installation 
+                      | Access point Configuration and installation - Router,Network switches, firewalls management,
+                      | Network cabling, Server Configuration & Installation server windows features deploymen, 
+                      | Website backend Management, Server Active Director & Domain Service.AD&DS
+                      | File ServerBackup,Print server,cisco switching and routing,IP CCTV camera. installation, 
+                      | configuration and monitoring,Windows operating system installation,Photoshop design.
+
+            section.resume__section.resume__experience
+              .resume__content
+                .resume__section-title
+                  i.fa.fa-briefcase
+                  h2 Employment History
+                .xp-item
+                  .xp-job
+                    | Accra Compost and Recycling Plant / IT Officer
+                    | <span>@ Grupo Tesseract</span>
+                    br
+                    Adjen kotoku - medie, Greater Accra, Ghana
+                  .xp-date Apr. 2020 – expired
+                  .xp-detail
+                    ul
+                      li
+                        | User Desktop Support and Hardware Management.
+                        | Computer Server Networking.
+                        | CCTV Installation,Monitoring and Management.
+                        | Social Media and Website Management.
+                        | Media and Content Management Website Backend.
+                        | Liase with group Office and Telcos.
+                        | WINDOWS SERVER - Managing Microsoft Active Directory in the 
+                        | enterprise, including creating bulk user accounts, deleting and 
+                        | modifying user accounts, Adding users and changing passwords.
+                        
+
+                .xp-item
+                  .xp-job
+                    | ECS Networking Solutions
+                    | <span>@ IT Contract</span>
+                    br
+                    Accra, Ghana
+                  .xp-date April,2019 - 2022
+                  .xp-detail
+                    ul
+                      li
+                        | CCTV Cameras Installation
+                        | Web Management
+                      li
+                        | Server Programming
+                        | Biometric Attendance Device installation
+                        | Graphic Designing
+
+          .resume__side
+            section.resume__section.resume__skills
+              .resume__content
+                .resume__section-title
+                  i.fa.fa-align-center
+                  h2 Skills
+                .resume__text
+                  .extra
+                    .extra-info
+                      | Server
+                      br
+                      Computer server network and systems
+                    .extra-details
+                      .extra-details__progress(style='width:90%')
+                  .extra
+                    .extra-info
+                      | JavaScript
+                      br
+                      small React · React Native · Vue
+                    .extra-details
+                      .extra-details__progress(style='width:87%')
+                  .extra
+                    .extra-info
+                      | Media
+                      br
+                      Graphic Design, Video Editiing, Photography, Videography
+                    .extra-details
+                      .extra-details__progress(style='width:100%')
+                  .extra
+                    .extra-info
+                      | Hardware
+                      br
+                      Computer parts repiars and replacements
+                    .extra-details
+                      .extra-details__progress(style='width:100%')
+                  .extra
+                    .extra-info
+                      | Software
+                      br
+                      Configuration and installation
+                    .extra-details
+                      .extra-details__progress(style='width:82%')
+                  .extra
+                    .extra-info
+                      | Social Media
+                      br
+                      Facebook Twitter, Linkedln, Instagram, Tiktok
+                    .extra-details
+                      .extra-details__progress(style='width:80%')
+                  .extra
+                    .extra-info
+                      | Operating Systems
+                      br
+                      small
+                        | <i class="fa fa-linux"></i> GNU/Linux ·
+                        | <i class="fa fa-apple"></i> Mac OS ·
+                        | <i class="fa fa-windows"></i> Windows
+                    .extra-details
+                      .extra-details__progress(style='width:90%')
+
+            section.resume__section.resume__languages
+              .resume__content
+                .resume__section-title
+                  i.fa.fa-globe
+                  h2 Languages
+                .extra
+                  .extra-info English <Fluent>(native)</small>
+                  .extra-details
+                    .extra-details__progress(style='width:100%')
+                .extra
+                  .extra-info French
+                  .extra-details
+                    .extra-details__progress(style='width:65%')
+                .extra
+                  .extra-info Twi
+                  .extra-details
+                    .extra-details__progress(style='width:20%')
